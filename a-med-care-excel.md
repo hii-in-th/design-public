@@ -1,0 +1,74 @@
+# excel data dic
+## field
+- VHN
+- VAN
+- national_id
+- Repeat_visit จำนวนการ visit(admit) ซ้ำ ของผู้ป่วยคนนี้กี่ครั้ง
+    - ระบบจะนับจาก national_id ว่าซ้ำกันกี่ครั้ง
+- title
+- name
+- surname
+- phone เบอร์โทรศัพท์
+- เพศ
+- เกิด
+- height
+- weight
+- insurance สิทธิประกัน เบิกจ่าย
+- pstatus สถานนะของผู้ป่วยปัจจุบัน
+    - ถ้าผู้ป่วยคนเดียวกัน จะเหมือนกันทุกแถว
+- serviceDate วันเวลาทีขอ auth
+- serviceCode รหัส auth
+- eclaim_id รหัสอ้างอิงสำหรับเรียกดูข้อมูล ช่วยให้ผู้ดูแลระบบตามหาข้อมูลได้เร็วขึ้น
+- date_eclaim วันที่ส่งเคลม
+- eclaim_status
+- eclaim-permitno
+- eclaim_an
+- รหัสเหตุผล
+- chargeitem
+- amont-eclaim
+- createdAt (VAN) วันเวลาที่สร้างรหัส VAN
+- updatedAt (VAN ) วันที่เวลาล่าสุด ที่มีการแก้ไขข้อมูล VAN
+- hcode
+- hname
+- address_subdistrict
+- address_district
+- address_province
+- address_zipcode
+- โรคประจำตัว
+- การแพ้ยา
+- ประวัติเจ็บป่วย
+- symtoms1 อาการนำลำดับที่ 1
+- symtoms2 อาการนำลำดับที่ 2
+- diseases1 โรค
+- diseases2 โรค
+- Risk (Group) ความเสี่ยง แปลงมาจากตัวเลือกในระบบ
+- Remedies_CreatedAt_1 วันเวลาที่ เก็บข้อมูลครั้งที่ 1
+- Remedies_Content_1
+- Remedies (Yes/No)_1 เป็นตัวที่ บอก medication, alcohol, smoker, exercise, food, stress, sleep  มีทั้งหมด 7 ค่า  True = 1,  False = 0
+- Remedies_CreatedAt_2 วันเวลาที่ เก็บข้อมูลครั้งที่ 2
+- Remedies_Content_2
+- Remedies (Yes/No)_2 เป็นตัวที่ บอก medication, alcohol, smoker, exercise, food, stress, sleep  มีทั้งหมด 7 ค่า  True = 1,  False = 0
+- Drug_1_CreatedAt
+- Drug_1_content
+- Drug_1_Medicine_1
+- Drug_1_Medicine_1_Quantity
+- Drug_1_Medicine_2
+- Drug_1_Medicine_2_Quantity
+- Drug_1_Medicine_3
+- Drug_1_Medicine_3_Quantity
+- Drug_1_Medicine_4
+- Drug_1_Medicine_4_Quantity
+- Drug_1_Medicine_5
+- Drug_1_Medicine_5_Quantity
+- Drug_2_CreatedAt
+- Drug_2_content
+- Drug_2_Medicine_1
+- Drug_2_Medicine_1_Quantity
+- Drug_2_Medicine_2
+- Drug_2_Medicine_2_Quantity
+- Drug_2_Medicine_3
+- Drug_2_Medicine_3_Quantity
+- Drug_2_Medicine_4
+- Drug_2_Medicine_4_Quantity
+- Drug_2_Medicine_5
+- Drug_2_Medicine_5_Quantity
